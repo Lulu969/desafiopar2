@@ -1,0 +1,271 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    padding-left: 80px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+h3 {
+    color: rgb(25, 77, 190);
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 29px;
+}
+
+.cosito1 {
+    display: flex;
+    justify-content: left;
+
+}
+
+.cosito2 {
+    display: flex;
+    justify-content: right;
+}
+
+.cosito8 {
+    margin: 0px;
+    padding: 90px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    background: url("../img/fondo.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h3 {
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.menu span {
+    color: #807d7d;
+    margin: 2px;
+    padding:2px;
+}
+
+.menu a {
+    color: rgb(107, 102, 102);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgb(204, 204, 231);
+}
+
+.nose {
+    display: flex;
+    justify-content: center;
+}
+
+.formu {
+    margin: 10px 15px;
+    padding: 10px 35px;
+    width: 45%;
+    border: 2px solid #d6d6d6;
+    backdrop-filter: blur(20px);
+    background-color: #d4d4d4;
+    border-radius: 7px;
+}
+
+.cosito3 {
+    display: flex;
+    justify-content: right;
+}
+
+.cosito5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    background: url("../img/gatit.jpg")no-repeat;
+    flex-direction: column;
+    align-items: left;
+    background-size: cover;
+}
+
+.cosito9 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cosito10 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cosito11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #807d7d;
+}
+
+.cosito12 {
+    padding: 90px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    background: url("../img/fondo.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cosito14 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 10px;
+
+}
+
+.cosito17 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+p {
+    padding: 5px 80px;
+}
+
+.boton {
+    width: 50%;
+    background-color: hwb(0 100% 0%);
+    border-radius: 3cqmin;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton1 {
+    width: 70%;
+    margin: 3px auto;
+    padding: 10px 20px;
+    background-color: #818386;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.boton1:hover {
+    background-color: #0056b3;
+}
+
+.boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin: 5px auto;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+    border-radius: 5px;
+
+}
+
+.boton3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    padding: 10px;
+    margin: 5px auto;
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    border-color: coral;
+    border-radius: 5px;
+}
+
+img {
+    margin: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+    color: #ffffff;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.redes-sociales a:hover {
+    color: #3b5998;
+}
+
+.botonmenu {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check {
+    display: none;
+}
+@media (max-width: 750px){
+    .botonmenu {
+        display: block;
+    }
+    .menu ul {
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background: rgb(19, 25, 50);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    
+    }
+    .menu ul span {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .menu ul span a {
+        font-size: 20px;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
